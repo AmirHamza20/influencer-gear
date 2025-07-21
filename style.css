@@ -97,3 +97,17 @@ ul.main-menu li img{
 .hero-img-col img {
     max-width: 100% ;
 }
+
+
+/* band section start  */
+
+.band-wrapper{
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.band-flex-container{
+   display: flex;
+   justify-content: space-between;
+   padding: 36px 62px;
+   margin-bottom: 100px;
+}
