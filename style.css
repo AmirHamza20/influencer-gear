@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+}
+
+:root{
+    --primary-color: #3A3A3A
+    --secondary-color: #18191F
+    --accent-color: #787885
+    --bg-color: #AAAAAA
+}
+
+
+/* sherd style  */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+
+/* nav bar style  */
+.nav-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.main-logo h1{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+ul.main-menu {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    
+}
+ul.main-menu li{
+    list-style: none;
+}
+ul.main-menu li a, img{
+    text-decoration: none;
+    color:var(--primary-color)
+}    
+/* nav bar style end */
