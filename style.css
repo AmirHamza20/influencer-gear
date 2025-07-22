@@ -186,3 +186,31 @@ ul.main-menu li img{
 
 /* gear section end  */
 
+/* footer section start  */
+.footer-text-container{
+    margin-top: 80px;
+    background-color: #313133;
+}
+.footer-text{
+    padding: 50px 0px;
+}
+.footer-text h2,p1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-color);
+}
+.footer-text h2{
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+.footer-text p{
+    font-size: 0.9rem;
+}
+.footer-text img{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+/* footer style end  */
