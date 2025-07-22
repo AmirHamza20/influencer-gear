@@ -162,4 +162,27 @@ ul.main-menu li img{
     border: none;
     background-color: #FFFFFF;
 }
+/* card section end  */
+
+/* gear section start  */
+
+.gear-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 60px;
+}
+.gear-text-container h1{
+    font-size: 2.04rem;
+    line-height: 60px;
+    color: #0A0826;
+}
+.gear-text-container p{
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+
+/* gear section end  */
 
